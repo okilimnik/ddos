@@ -1,0 +1,4 @@
+.lsp/
+.shadow-cljs/
+.clj-kondo/
+node_modules/

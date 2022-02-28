@@ -1,0 +1,16 @@
+{:source-paths
+ ["src"]
+
+ :dependencies
+ [[cljs-http "0.1.46"]
+  [binaryage/oops "0.7.1"]]
+
+ :dev-http
+ {8020 "public"}
+
+ :builds
+ 
+ {:app
+  {:target :node-script
+   :output-to "index.js"
+   :main      ddos/start!}}}
